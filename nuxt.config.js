@@ -1,4 +1,8 @@
 export default {
+  target: 'static',
+  router: {
+    base: '/ExerciceNavbarEtCarrouselSuzuki/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'fred-project',
