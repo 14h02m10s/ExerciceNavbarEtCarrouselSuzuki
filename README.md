@@ -14,7 +14,8 @@ $ npm run build
 $ npm run start
 
 # generate static project
-$ npm run generate
+$ npm run generate > nope !
+$ npm run deploy
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
