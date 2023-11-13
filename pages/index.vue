@@ -236,8 +236,12 @@
           v-for="slide in sliders"
           :key="slide.id"
         >
-          <div
+          <!-- <div
             class="grid content-center p-8 bg-gradient-to-r from-neutral-500 absolute inset-0 w-2/5"
+          > -->
+          <div
+            class="grid content-center p-8 absolute inset-0 w-2/5"
+            id="degrade"
           >
             <!-- texte slider -->
             <div class="text-lg lg:text-3xl uppercase w-10/12 md:w-full">
@@ -315,5 +319,12 @@ export default {
 <style scoped>
 .cache {
   display: none;
+}
+#degrade {
+  background: linear-gradient(
+    to right,
+    rgba(100, 100, 100, 1),
+    rgba(100, 100, 100, 0) 100%
+  );
 }
 </style>
